@@ -1,11 +1,11 @@
-# Remote Login
+# 1. Remote Login
 ## command
 `telnet root`
 
 ## screenshot
   ![90696c474e98091c66dd657ab21a3d28.png](../_resources/90696c474e98091c66dd657ab21a3d28.png)
 
-# Obtain flag
+# 2. Obtain flag
 ## command
 `cat flag.txt`
 ## root flag
