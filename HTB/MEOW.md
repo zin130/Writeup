@@ -10,3 +10,7 @@
 `cat flag.txt`
 ## Root flag
   ![5b946c162ea823d8414d1cfcf61ba0cf.png](../_resources/5b946c162ea823d8414d1cfcf61ba0cf.png)
+  
+  # 3. xxx
+  # # command
+  ![3f6fb622a4ca382698270b926887a855.png](../_resources/3f6fb622a4ca382698270b926887a855.png)
